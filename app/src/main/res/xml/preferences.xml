@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pseudos_category"
+        android:title="Les Exos">
+
+
+        <EditTextPreference
+            android:defaultValue=" "
+            android:key="exercises"
+            android:summary="Les Exos enregistrés"
+            android:title="Exercises" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="trainings_category"
+        android:title="Mes trainings">
+
+
+        <EditTextPreference
+            android:defaultValue=" "
+            android:key="exercises"
+            android:summary="Tous mes trainings"
+            android:title="Trainings" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
